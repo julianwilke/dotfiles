@@ -3,6 +3,7 @@
 
 # don't ignore dotfiles in the home directory
 !.*
+!.emacs.d/*
 
 # list all the dotfiles that you don't want to include
 .CFUserTextEncoding
