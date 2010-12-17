@@ -1,0 +1,11 @@
+[user]
+	name = Julian Wilke
+	email = julianwilke@gmail.com
+[core]
+	editor = "mate -w"
+[merge]
+	tool = opendiff
+[color]
+	diff = auto
+	branch = auto
+	status = auto

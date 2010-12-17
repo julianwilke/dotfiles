@@ -1,0 +1,25 @@
+# ==============
+# = Navigation =
+# ==============
+
+# I think these shortcuts work by default, but just to be sure
+# "\C-f": forward-word
+# "\C-b": backward-word
+
+# ==============
+# = Completion =
+# ==============
+
+# Cycle through completions instead of the standard completion method
+# To see a list of possible completions (like with the standard method) press ESC, ? (in sequence, not at the same time)
+TAB: menu-complete
+
+# Use Shift-TAB to cycle through the completions in reverse
+# =========================================================
+# "\e[Z" is the escape sequence for Shift-TAB
+# "\e-1\C-i" sends a negative argument to the key combination Ctrl-i (which is equivalent to TAB)
+# since xterm-terminals didn't have a TAB key, when TAB is pressed Ctrl-i is invoked
+# by sending a negative argument to TAB (which is bound to menu-complete), the reverse of menu-complete is invoked.
+"\e[Z": "\e-1\C-i"
+
+set completion-ignore-case On

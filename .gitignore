@@ -1,0 +1,25 @@
+# ignore everything
+*
+
+# don't ignore dotfiles in the home directory
+!.*
+
+# list all the dotfiles that you don't want to include
+.CFUserTextEncoding
+.DS_Store
+.Trash
+.Xauthority
+.bash_history
+.ido.last
+.irb-history
+.irb_history
+.lesshst
+.mysql_history
+.rdebug_hist
+.recentf
+.rvm/
+.sqlite_history
+.ssh/
+.viminfo
+.wine/
+
